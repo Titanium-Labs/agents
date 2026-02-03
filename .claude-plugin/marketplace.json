@@ -2019,6 +2019,63 @@
         "./skills/debugging-strategies",
         "./skills/monorepo-management"
       ]
+    },
+    {
+      "name": "paid-advertising",
+      "source": "./plugins/paid-advertising",
+      "description": "Google Ads campaign management, optimization, and strategic planning with comprehensive PPC expertise",
+      "version": "1.0.0",
+      "author": {
+        "name": "Seth Hobson",
+        "url": "https://github.com/wshobson"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "repository": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "keywords": [
+        "google-ads",
+        "ppc",
+        "paid-advertising",
+        "campaign-optimization",
+        "sem",
+        "marketing"
+      ],
+      "category": "marketing",
+      "strict": false,
+      "commands": [],
+      "agents": [
+        "./agents/google-ads-specialist.md"
+      ]
+    },
+    {
+      "name": "supabase-development",
+      "source": "./plugins/supabase-development",
+      "description": "Supabase backend development with PostgreSQL, Auth, Storage, Edge Functions, and Realtime. Build secure, scalable applications with Row Level Security and serverless architecture",
+      "version": "1.0.0",
+      "author": {
+        "name": "Seth Hobson",
+        "url": "https://github.com/wshobson"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "repository": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "keywords": [
+        "supabase",
+        "postgresql",
+        "baas",
+        "backend-as-a-service",
+        "rls",
+        "auth",
+        "edge-functions",
+        "realtime",
+        "serverless"
+      ],
+      "category": "database",
+      "strict": false,
+      "commands": [],
+      "agents": [
+        "./agents/supabase-pro.md"
+      ]
     }
   ]
 }
